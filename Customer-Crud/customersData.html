@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>customers Data</title>
+
+    <link rel="stylesheet" href="customers.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+
+  <body>
+    <div class="customer-container">
+      <div class="side-bar">
+        <div class="menu-icon" style="border-radius: 8px">
+          <span class="material-symbols-outlined" style="font-size: xx-large">
+            menu
+          </span>
+        </div>
+        <!-- menu icon-->
+
+        <div class="side-bar-icon" style="border-radius: 8px">
+          <span class="material-symbols-outlined"> show_chart </span>
+        </div>
+        <!-- show chart-->
+
+        <div class="side-bar-icon" style="border-radius: 8px">
+          <span class="material-symbols-outlined"> chat </span>
+        </div>
+        <!-- chat-->
+
+        <div class="side-bar-icon" style="border-radius: 8px">
+          <span class="material-symbols-outlined"> check_circle </span>
+        </div>
+        <!-- check circle-->
+
+        <div class="side-bar-icon" style="border-radius: 8px">
+          <span class="material-symbols-outlined"> event_available </span>
+        </div>
+        <!-- event-->
+
+        <div class="side-bar-icon" style="border-radius: 8px">
+          <span class="material-symbols-outlined"> description </span>
+        </div>
+        <!-- description-->
+
+        <div class="alert-icon" style="margin-top: 200px; text-align: right">
+          <span class="material-symbols-outlined" style="margin-right: 10px">
+            brightness_alert
+          </span>
+        </div>
+        <!-- !! icon-->
+      </div>
+      <!--div1-->
+      <div class="div-right" style="height: 150px">
+        <div class="app-bar">
+          <div class="user-content">
+            <div class="app-icon">
+              <span
+                style="font-size: 32px; color: gray; margin-top: 6px"
+                class="material-symbols-outlined"
+              >
+                apps
+              </span>
+            </div>
+
+            <!-- <div class="k-button">K</div> -->
+
+            <div class="k-button email-btn">
+              <abbr
+                title="krishvelliappan@gmail.com"
+                style="text-decoration: none"
+                >K</abbr
+              >
+            </div>
+          </div>
+          <!--app-bar-->
+          <div class="customer-header">
+            <!--class customer-header div started here-->
+
+            <div class="logout-box">
+              <!--log-out box div started here-->
+              <!-- ................................................................................................ -->
+
+              <!-- ................................................................................................ -->
+
+              <div class="logout">
+                <!--logout  div started here-->
+                <div>x</div>
+                <h4 class="pop-text">krishvelliappan@gmail.com</h4>
+                <div class="lgt-input">
+                  <!--lgt(log out) input div start here-->
+
+                  <div class="avatar">
+                    <!--avatar div started here-->
+                    <!-- ........................................................................................................ -->
+                    <span class="avatar-k">K </span>
+                  </div>
+
+                  <!--lgt(log out) input div ended here-->
+                </div>
+                <!--avatar div end here-->
+
+                <div class="text-hi">Hi, Krishnaraj.V!</div>
+                <div class="manage-acc">
+                  <span style="padding: 4px">Manage your Google Account</span>
+                </div>
+                <p class="pop-text logout-text">
+                  <span class="material-symbols-outlined"> logout </span>signout
+                </p>
+              </div>
+              <!--logout  div ended here-->
+            </div>
+            <!--log-out box div ended here-->
+
+            <!--------------------------------------------------------------------------------------------------------->
+
+            <div class="container">
+              <div class="border-container">
+                <div class="customers">
+                  <div class="domain-customer">
+                    <div>
+                      <span
+                        class="material-symbols-outlined"
+                        style="pointer-events: none"
+                      >
+                        domain
+                      </span>
+                    </div>
+                    <div class="custom">
+                      <h5>Customers</h5>
+                    </div>
+                  </div>
+                  <br />
+                  <a href="create.html"
+                    ><button
+                      onclick="localStorage.removeItem('editCustomer')"
+                      class="Add-button"
+                    >
+                      <span class="material-symbols-outlined"> add </span> Add
+                      customer
+                    </button></a
+                  >
+                  <h2>Customers</h2>
+                </div>
+                <br />
+                <div class="status-container">
+                  <div class="status active" id="actives">Active</div>
+                  <div class="status on-hold">On hold</div>
+                  <div class="status closed">Closed</div>
+                  <div class="status all"><span class="All">All</span></div>
+                </div>
+
+                <div class="border">
+                  <!-- search box -->
+                  <div class="search-container">
+                    <div class="search">
+                      <input
+                        type="text"
+                        class="search-input-box"
+                        placeholder="Search by Customer Name"
+                      />
+                      <div id="" class="search-icon-div">
+                        <span class="material-symbols-outlined search-icon">
+                          search
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <table>
+                    <thead style="color: grey; text-align: center">
+                      <tr>
+                        <th>
+                          <div
+                            class="customer-table-header"
+                            style="display: flex; align-items: center"
+                          >
+                            CUSTOMER NAME
+                            <div>
+                              <div>
+                                <span
+                                  class="material-symbols-outlined"
+                                  style="font-size: 18px; margin-left: 15px"
+                                >
+                                  keyboard_arrow_up
+                                </span>
+                              </div>
+                              <br />
+                              <div style="margin-top: -12px">
+                                <span
+                                  class="material-symbols-outlined"
+                                  style="font-size: 18px; margin-left: 15px"
+                                >
+                                  keyboard_arrow_down
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </th>
+                        <th>DESCRIPTION</th>
+
+                        <th>
+                          <div
+                            class="customer-table-header"
+                            style="display: flex; align-items: center"
+                          >
+                            TYPE
+                            <div>
+                              <div>
+                                <span
+                                  class="material-symbols-outlined"
+                                  style="font-size: 18px; margin-left: 15px"
+                                >
+                                  keyboard_arrow_up
+                                </span>
+                              </div>
+                              <br />
+                              <div style="margin-top: -12px">
+                                <span
+                                  class="material-symbols-outlined style="
+                                  style="font-size: 18px; margin-left: 15px"
+                                >
+                                  keyboard_arrow_down
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </th>
+
+                        <th>
+                          <div
+                            class="customer-table-header"
+                            style="display: flex; align-items: center"
+                          >
+                            STATUS
+                            <div>
+                              <div>
+                                <span
+                                  class="material-symbols-outlined"
+                                  style="font-size: 18px; margin-left: 15px"
+                                >
+                                  keyboard_arrow_up
+                                </span>
+                              </div>
+                              <br />
+                              <div style="margin-top: -12px">
+                                <span
+                                  class="material-symbols-outlined style="
+                                  style="font-size: 18px; margin-left: 15px"
+                                >
+                                  keyboard_arrow_down
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </th>
+                        <th>
+                          <div
+                            class="customer-table-header"
+                            style="display: flex; align-items: center"
+                          >
+                            CREATED ON
+                            <div>
+                              <div>
+                                <span
+                                  class="material-symbols-outlined"
+                                  style="font-size: 18px; margin-left: 15px"
+                                >
+                                  keyboard_arrow_up
+                                </span>
+                              </div>
+                              <br />
+                              <div style="margin-top: -12px">
+                                <span
+                                  class="material-symbols-outlined style="
+                                  style="font-size: 18px; margin-left: 15px"
+                                >
+                                  keyboard_arrow_down
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </th>
+                        <th>ACTIONS</th>
+                      </tr>
+                    </thead>
+                    <tbody id="customer-table-body"></tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--customer-header-->
+    </div>
+    <!--div right-->
+    <!-- </div> -->
+
+    <!--customer-container-->
+    <script src="create.js"></script>
+    <script src="customer.js"></script>
+  </body>
+</html>

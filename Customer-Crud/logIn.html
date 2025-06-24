@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>log in page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="logIn.css" />
+  </head>
+  <body>
+    <!-- I set login page short form lgp-->
+    <!--so I used lgp for started with class name -->
+
+    <div class="lgp-container">
+      <!--class container div started here-->
+
+      <fieldset class="lgp-input-fieldset">
+        <!-- <fieldset class="lgp-input-fieldset"> -->
+
+        <div class="lgp-main-container">
+          <!----class lgp-main-container div started here-->
+
+          <div class="lgp-input-body">
+            <!--class lgp-input-body div started here-->
+
+            <div class="lgp-logo">
+              <!--class lgp-logo div started here-->
+              <!-- <img
+                src="logo/breezewareLogo.jpeg"
+                alt="breezeware india"
+                id="logo"
+              /> -->
+              <img
+                src="https://ci3.googleusercontent.com/meips/ADKq_NZtLzeT91yljbaJz2yvYo--YSc7Jg0eY9JmuTlNoTdt6H67uJiYb33KWSaZATEcNmR_6HWQW0zmo34a5RxEotCW8dBC=s0-d-e1-ft#https://www.breezeware.net/assets/img/Logo.png"
+                alt="breezeware"
+                class="breeze-img"
+                style="width: 100px"
+                height="30px"
+              />
+            </div>
+            <!--class lg-logo div ended here-->
+
+            <div class="lgp-input-field">
+              <!--class lgp-input-field div started here-->
+
+              <div class="email-lbl">
+                <!--email lbl start-->
+
+                <label for="e-mail"
+                  >E-mail <span class="requird-symbol">*</span></label
+                >
+              </div>
+              <!--email lbl lbl end-->
+              <div class="wrapper">
+                <!--icon wrapper div start-->
+
+                <input
+                  type="email"
+                  id="e-mail"
+                  name="e-mail"
+                  class="lgp-input-box"
+                  placeholder="Email address"
+                />
+              </div>
+              <!--icon wrapper div end-->
+
+              <p id="email-required"></p>
+
+              <div class="pwd-lbl">
+                <!--pwd lbl div start-->
+
+                <label for="password"
+                  >Password <span class="requird-symbol">*</span></label
+                >
+              </div>
+              <!--pwd lbl div end-->
+              <div class="wrapper">
+                <!--icon wrapper div start-->
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  class="lgp-input-box"
+                  placeholder="Password"
+                />
+                <span class="material-symbols-outlined visible-icon">
+                  visibility
+                </span>
+              </div>
+              <!--icon wrapper div end-->
+              <p id="password-required"></p>
+              <p class="error-msg"></p>
+
+              <div class="login-input">Log in</div>
+
+              <!--.........-->
+
+              <!--class lgp- btn -div started here-->
+              <!-- <div class="lgp-btn-div">
+                <button id="lgp-cancel-btn">Cancel</button>
+
+                <button id="lgp-submit-btn">Submit</button>
+              </div> -->
+              <!--.........-->
+
+              <!--class lgp- btn -div ended here-->
+            </div>
+
+            <!--class lgp-input-field div ended here-->
+          </div>
+
+          <!--class lgp-input-body div ended here-->
+        </div>
+      </fieldset>
+      <!----class lgp-main-container div ended here-->
+    </div>
+    <!--class container div ended here-->
+
+    <!--script tag here-->
+
+    <script src="logIn.js"></script>
+  </body>
+</html>

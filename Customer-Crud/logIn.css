@@ -1,0 +1,110 @@
+* {
+  font-family: sans-serif;
+}
+.lgp-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+  background-color: #ddd;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.lgp-main-container {
+  /* min-width: 100vh; */
+  display: flex;
+  justify-content: center;
+}
+.lgp-input-fieldset {
+  padding: 40px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  border: none;
+}
+.lgp-input-body {
+}
+.lgp-input-field {
+}
+.lgp-btn-div {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.lgp-logo {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.lgp-input-box {
+  height: 30px;
+  width: 250px;
+  outline: none;
+  border: none;
+  background-color: whitesmoke;
+  padding-inline: 0;
+  margin-left: 2px;
+}
+.user-name-lbl,
+.email-lbl,
+.pwd-lbl {
+  margin-top: 10px;
+}
+#lgp-cancel-btn,
+#lgp-submit-btn {
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  padding: 4px 12px;
+  height: 25px;
+}
+
+#lgp-cancel-btn:hover,
+#lgp-submit-btn:hover {
+  cursor: pointer;
+}
+.requird-symbol {
+  color: red;
+}
+#logo {
+  height: 60px;
+  width: 60px;
+  color: whitesmoke;
+}
+#email-required,
+#password-required,
+.error-msg {
+  color: red;
+  font-size: 12px;
+}
+.visible-icon {
+  font-size: 16px;
+  margin-right: 8px;
+}
+.visible-icon:hover {
+  cursor: pointer;
+}
+.wrapper {
+  border: 1px solid grey;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.login-input {
+  border: 1px solid #0a5b99;
+  border-radius: 4px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  margin-top: 30px;
+  background-color: #0a5b99;
+  color: white;
+}
+.login-input:hover {
+  cursor: pointer;
+}
